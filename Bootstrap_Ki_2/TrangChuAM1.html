@@ -1,0 +1,492 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ADMIN WEBSITE EILTS</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<script src="../../assets/js/ie-emulation-modes-warning.js"></script>
+  <script type ="text/javascript" src="js/jquery-3.1.0.min.js"></script>
+  <script type ="text/javascript" src="js/bootstrap.min.js"></script> 
+  <style>
+      body {
+      position: relative;
+  }
+  #paper1 {padding-top:50px;}
+  #paper2 {padding-top:50px;}
+  #paper3 {padding-top:50px;}
+  #paper4  {padding-top:50px;}
+  #paper51 {padding-top:50px;}
+  #paper52 {padding-top:50px;}
+  #paper6  {padding-top:50px;}
+  </style>
+  <!--Anh bìa động-->
+    <style>
+    body {
+            background-image: url("imgs/anhdong1.gif");
+          }
+    </style>
+    <!--/Anh bìa động-->
+</head>
+<body data-spy="scroll" data-target=".navbar" data-offset="50">
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#">TRANG ADMIN</a>
+      </div>
+    <div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><span class="glyphicon glyphicon-user"></span>admin1</a></li>
+        <li><a href="Admin.html"><span class="glyphicon glyphicon-log-in"></span>Log out</a></li>
+      </ul>
+      <ul class="nav navbar-nav">
+        <li><a href="#paper1">HOME</a></li>
+        <li><a href="#paper2">RESOURCES</a></li>
+        <li><a href="#paper3">INTERACTION</a></li>
+        <li><a href="#paper4">MEMBERS</a></li>
+        <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#">MEMBERS <span class="caret"></span></a>
+          <ul class="dropdown-menu">
+            <li><a href="#paper51">USER </a></li>
+            <li><a href="#paper52">ADMIN</a></li>
+          </ul>
+        </li>
+        <li><a href="#paper6">SETTING</a></li>
+      </ul>
+    </div>
+    </div>
+  </nav>
+  <div id="paper1" class="container-fluid">
+    <h2>Thông Báo: Những quy định của admin trong hệ thống, quyền và nghĩa vụ bablabla...</h2>
+    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+      <span class="glyphicon glyphicon-lg glyphicon-update">
+      Update
+    </button>
+    <h2>Những công việc được cần các admin khác cần làm được ghi tại đây......</h2>
+    <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+      <span class="glyphicon glyphicon-lg glyphicon-plus">
+      Thêm Note
+    </button>
+  </div>
+  <div id="paper2" class="container-fluid">
+    <h2>TÀI LIỆU MY PUBLIC</h2>
+    <h4>>>>Đang đợi Accept</h4>
+    <div class="well well-lg">
+      <ol class="breadcrumb">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <div class="checkbox">
+              <label><input type="checkbox"> Check me out</label>
+            </div>
+            <span class="caret"></span>  
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Chọn tất cả</a></li>
+            <li><a href="#">Bỏ chọn tất cả</a></li>
+          </ul>
+        </div>
+        <a>---------------------------------------------------------------------------------------------------</a><a>--------------------------------------------------------------------------------------------------</a>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-ok">
+          Confirm
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-remove">
+          Cancel 
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-trash">
+          Trash
+        </button>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">NOTIFY!!!</h4>
+              </div>
+            <div class="modal-body">
+              <h3>ARE YOU SURE????</h3>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+            </div>
+          </div>
+        </div>
+      </ol>
+      <div class="list-group">
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    Kemotsach ------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>   
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    qwerty ---------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    abc ------------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    kmm -------------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    xyz --------------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>
+        </a>
+      </div>
+    </div>
+    <h4>>>>Đang lưu trữ trong My Public</h4>
+    <div class="well well-lg">
+      <ol class="breadcrumb">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-check"></span>
+            <span class="caret"></span>  
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Chọn tất cả</a></li>
+            <li><a href="#">Bỏ chọn tất cả</a></li>
+          </ul>
+        </div>
+        <a>----------------------------------------------------------------------------------------------------------------------------</a><a>----------------------------------------------------------------------------------------------------------------------</a>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-trash">
+          Trash
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-upload">
+          Confirm
+        </button>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">NOTIFY!!!</h4>
+              </div>
+              <div class="modal-body">
+                <h3>ARE YOU SURE????</h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ol>
+      <div class="list-group">
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    Kemotsach ------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    qwerty ---------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    abc ------------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    kmm -------------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    xyz --------------------------------------------------- FILE TAI LIEU ..............................-..............................20/09/2016.</label>
+          </div>  
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="paper3" class="container-fluid">
+    <h2>INTERACTION</h2>
+    <h4>>>>>Mail thông báo một chiều</h4>
+    <h4>>>>>Mục chat của user đang đợi xử lý</h4>
+    <div class="well well-lg">
+      <ol class="breadcrumb">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-check"></span>
+            <span class="caret"></span>  
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Chọn tất cả</a></li>
+            <li><a href="#">Bỏ chọn tất cả</a></li>
+          </ul>
+        </div>
+        <a>-------------------------------------------------------------------------------------------------------------------------------</a><a>----------------------------------------------------------------------------------------------------------------------------------</a>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-trash">
+          Trash
+        </button>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">NOTIFY!!!</h4>
+              </div>
+              <div class="modal-body">
+                <h3>ARE YOU SURE????</h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ol>
+      <div class="list-group">
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    Kemotsach -----------------------blablablablablabkaakbalbalablabalbalabalababaalabalaala..........................</label>
+          </div>
+          <span class="badge">
+            <span class="glyphicon glyphicon-comment"></span>
+          </span>  
+          <p class="text-right">last online at 13h30 pm, 20/09/2016. </p> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    qwerty -----------------------blablablablablabkaakbalbalablabalbalabalababaalabalaala..........................</label>
+          </div>
+          <span class="badge">
+            <span class="glyphicon glyphicon-comment"></span>
+          </span>  
+          <p class="text-right">last online at 13h30 pm, 20/09/2016. </p>  
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    abc -----------------------blablablablablabkaakbalbalablabalbalabalababaalabalaala..........................</label>
+          </div>
+          <span class="badge">
+            <span class="glyphicon glyphicon-comment"></span>
+          </span>  
+          <p class="text-right">last online at 13h30 pm, 20/09/2016. </p>  
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    kmm -----------------------blablablablablabkaakbalbalablabalbalabalababaalabalaala..........................</label>
+          </div>
+          <span class="badge">
+            <span class="glyphicon glyphicon-comment"></span>
+          </span>  
+          <p class="text-right">last online at 13h30 pm, 20/09/2016. </p> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    xyz -----------------------blablablablablabkaakbalbalablabalbalabalababaalabalaala..........................</label>
+          </div>
+          <span class="badge">
+            <span class="glyphicon glyphicon-comment"></span>
+          </span>  
+          <p class="text-right">last online at 13h30 pm, 20/09/2016. </p>  
+        </a>
+      </div>
+    </div>
+  </div>
+  <div id="paper4" class="container-fluid">
+    <h2>MEMBER</h2>
+    <h4>>>>>>User</h4>
+    <div class="well well-lg">
+      <ol class="breadcrumb">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-check"></span>
+            <span class="caret"></span>  
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Chọn tất cả</a></li>
+            <li><a href="#">Bỏ chọn tất cả</a></li>
+          </ul>
+        </div>
+        <a>-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------</a>
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-filter"><p>Lọc</p></span>
+            <span class="caret"></span>  
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Ngày ĐK TK</a></li>
+            <li><a href="#">TRUY CẬP LẦN CUỐI...</a></li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-record">
+          Khóa tài khoản tạm thời
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-send">
+          Gửi Mail
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-trash">
+          Xóa TK vĩnh viễn
+        </button>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">NOTIFY!!!</h4>
+              </div>
+              <div class="modal-body">
+                <h3>ARE YOU SURE????</h3>
+              </div>
+              <div class="modal-footer">
+                <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+                <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </ol>
+      <div class="list-group">
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    Kemotsach -----------------------Chứa các thông tin: Tên TK, ngày DK TK, đổi mật khẩu, số lần share tài liệu, sự cố, báo cáo.....</label>
+          </div>
+          <p class="text-right"> update 20/09/2016. </p> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    qwerty -----------------------Chứa các thông tin: Tên TK, ngày DK TK, đổi mật khẩu, số lần share tài liệu, sự cố, báo cáo......</label>
+          </div>
+          <p class="text-right">update 20/09/2016. </p>  
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    abc ----------------------------------------------Chứa các thông tin: Tên TK, ngày DK TK, đổi mật khẩu, số lần share tài liệu, sự cố, báo cáo.....</label>
+          </div>
+          <p class="text-right">update 20/09/2016. </p>  
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    kmm ----------------------------------------------Chứa các thông tin: Tên TK, ngày DK TK, đổi mật khẩu, số lần share tài liệu, sự cố, báo cáo.....</label>
+          </div> 
+          <p class="text-right">update 20/09/2016. </p> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    xyz ----------------------------------------------Chứa các thông tin: Tên TK, ngày DK TK, đổi mật khẩu, số lần share tài liệu, sự cố, báo cáo....</label>
+          </div>  
+          <p class="text-right">update 20/09/2016. </p>  
+        </a>
+      </div>
+    </div>
+    <h4>>>>>>Admin</h4>
+    <div class="well well-lg">
+      <ol class="breadcrumb">
+        <div class="btn-group">
+          <button type="button" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
+            <span class="glyphicon glyphicon-check"></span>
+            <span class="caret"></span>  
+          </button>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Chọn tất cả</a></li>
+            <li><a href="#">Bỏ chọn tất cả</a></li>
+          </ul>
+        </div>
+        <a>----------------------------------------------------------------------------------------------------------------------------------</a>
+        <div class="btn-group">
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Ngày ĐK TK</a></li>
+            <li><a href="#">TRUY CẬP LẦN CUỐI...</a></li>
+          </ul>
+        </div>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-plus">
+          Tạo TK admin mới
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-record">
+          Khóa tài khoản tạm thời
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-send">
+          Gửi Mail
+        </button>
+        <button type="button" class="btn btn-primary btn-sm" data-toggle="modal" data-target="#myModal">
+          <span class="glyphicon glyphicon-trash">
+          Xóa TK vĩnh viễn
+        </button>
+        <div class="modal fade" id="myModal" role="dialog">
+          <div class="modal-dialog">
+          <!-- Modal content-->
+            <div class="modal-content">
+              <div class="modal-header">
+                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                <h4 class="modal-title">NOTIFY!!!</h4>
+              </div>
+              <div class="modal-body">
+              <h3>ARE YOU SURE????</h3>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-default" data-dismiss="modal">Yes</button>
+              <button type="button" class="btn btn-default" data-dismiss="modal">No</button>
+            </div>
+          </div>
+        </div>
+      </ol>
+      <div class="list-group">
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    admin-----------------------Chứa các thông tin của admin, balalba....</label>
+          </div>
+          <p class="text-right"> update 20/09/2016. </p> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    admin-----------------------Chứa các thông tin của admin, balalba....</label>
+          </div>
+          <p class="text-right">update 20/09/2016. </p>  
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    admin-----------------------Chứa các thông tin của admin, balalba....</label>
+          </div>
+          <p class="text-right">update 20/09/2016. </p>  
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    admin-----------------------Chứa các thông tin của admin, balalba....</label>
+          </div>
+          <p class="text-right">update 20/09/2016. </p> 
+        </a>
+        <a href="#" class="list-group-item">
+          <div class="checkbox">
+            <label><input type="checkbox">.    admin-----------------------Chứa các thông tin của admin, balalba....</label>
+          </div>
+          <p class="text-right">update 20/09/2016. </p>  
+        </a>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
